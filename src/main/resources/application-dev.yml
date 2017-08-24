@@ -1,0 +1,39 @@
+#server
+server:
+  port: 89
+  context-path: /springboot_mail
+  session:
+    timeout: 60
+  tomcat:
+    uri-encoding: UTF-8
+    max-connections: 200
+#log
+logging:
+  level: info
+#spring
+spring:
+  mail:
+    host: smtp.qq.com
+    username: 626996394@qq.com
+    password:
+    properties: mail.stmp.auth=true;mail.smtp.starttls.enable=true;mail.smtp.starttls.required=true
+  freemarker:
+    template-loader-path: classpath:/static/template/
+  #freemarker
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
